@@ -1,13 +1,11 @@
-<template>
-    <div class="example-component">
-        I'm an example component.
-    </div>
+<template lang="pug">
+    .example-component I'm an example component.
 </template>
 
 <script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
+export default {
+    mounted() {
+        console.log('Component mounted.')
     }
+}
 </script>

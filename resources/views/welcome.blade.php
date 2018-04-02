@@ -13,6 +13,6 @@
             <h1>Main Page</h1>
             <example></example>
         </div>
+        <script src="js/app.js"></script>
     </body>
 </html>
-<script src="js/app.js"></script>
