@@ -10,5 +10,6 @@
     </head>
     <body>
         <h1>Main Page</h1>
+        <example-component></example-component>
     </body>
 </html>
