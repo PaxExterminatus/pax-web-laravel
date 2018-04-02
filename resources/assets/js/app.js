@@ -1,6 +1,6 @@
-window.Vue = require('vue');
+import Vue from 'vue'
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('example', require('./components/Example.vue'));
 
 const app = new Vue({
     el: '#app'
