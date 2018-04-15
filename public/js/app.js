@@ -108,7 +108,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 
 
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('example', __webpack_require__(7));
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('menu-top', __webpack_require__(7));
 
 var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     el: '#app'
@@ -11556,7 +11556,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\Example.vue"
+Component.options.__file = "resources\\assets\\js\\components\\MenuTop.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -11565,9 +11565,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-b6ebd97a", Component.options)
+    hotAPI.createRecord("data-v-2d4a5f4f", Component.options)
   } else {
-    hotAPI.reload("data-v-b6ebd97a", Component.options)
+    hotAPI.reload("data-v-2d4a5f4f", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -11698,9 +11698,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
+    name: 'menu-top'
 });
 
 /***/ }),
@@ -11711,9 +11709,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "example-component" }, [
-    _vm._v("I'm an example component.")
-  ])
+  return _c("div", { staticClass: "menu-top" }, [_vm._v("Menu top")])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -11721,7 +11717,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-b6ebd97a", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-2d4a5f4f", module.exports)
   }
 }
 
