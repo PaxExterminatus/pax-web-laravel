@@ -14,8 +14,11 @@ body * {
   left: 0;
   width: 100%;
   height: 50px;
-  border: 1px solid red;
-  background-color: #adb0b2;
+  padding: 10px;
+  color: #fddbc7;
+  background-color: #1a1a1a;
+  -webkit-box-shadow: 0 0 30px #fddbc7;
+          box-shadow: 0 0 30px #fddbc7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,24 +28,27 @@ body * {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
 }
 
 .menu-top > * {
   margin-right: 5px;
-  width: 100%;
-  border: 1px solid gold;
+  border: 1px solid #d6604d;
+  -webkit-box-shadow: 0 3px 10px rgba(218, 113, 97, 0.5);
+          box-shadow: 0 3px 10px rgba(218, 113, 97, 0.5);
   text-align: center;
   padding: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .menu-top > *:hover {
-  background-color: darkred;
+  background-color: #4d4d4d;
   cursor: pointer;
 }
 
 body {
-  background-color: #adb0b2;
+  background-color: #878787;
 }
 
 .app {

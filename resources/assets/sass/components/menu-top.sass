@@ -7,19 +7,25 @@
   left: 0
   width: 100%
   height: $interval-top-menu
-  border: 1px solid red
-  background-color: $body-bg
+  padding: 10px
+
+  color: $clr-menu-txt
+
+  background-color: $clr-menu-bg
+  box-shadow: $shd-menu-box
+
   display: flex
   justify-content: center
   align-items: center
-  padding: 10px
 
 .menu-top > *
   margin-right: 5px
-  width: 100%
-  border: 1px solid gold
+  border: 1px solid $clr-menu-btn-hover-brd
+  box-shadow: $shd-menu-btn
   text-align: center
   padding: 5px
+  flex-grow: 1
+
 .menu-top > *:hover
-  background-color: darkred
+  background-color: $clr-menu-btn-hover-bg
   cursor: pointer
